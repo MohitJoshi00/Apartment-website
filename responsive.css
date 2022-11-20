@@ -1,0 +1,1358 @@
+#navContainer {
+    width: 100vw;
+}
+
+.nav-items a {
+    margin: 1px 10px;
+}
+
+#navBtns {
+    /* border: 2px solid red; */
+    margin-right: 1px;
+    width: 15vw;
+}
+
+.topBtn {
+    padding: 6px 5px;
+    font-family: 'Hubballi', cursive;
+    margin: 3px 2px;
+    border: none;
+    outline: none;
+    border-radius: 11px;
+    font-size: 0.90rem;
+    font-weight: 700;
+}
+
+#homeContainer::before {
+    top: 32.4px;
+}
+
+
+.rightContainer {
+    margin-top: 24.6%;
+
+}
+
+#aboutRightContainer {
+    /* border: 2px solid indigo; */
+    margin-right: 10.9%;
+}
+
+
+@media(max-width: 1445px) and (min-width:1023px) {
+
+    #navContainer {
+        position: static;
+    }
+
+    #navbar {
+        /* border: 2px solid black; */
+        background-color: white;
+        position: fixed;
+        width: 100vw;
+        align-items: center;
+        top: 0;
+        justify-content: center;
+        margin: 0px 0px;
+    }
+
+    #navHeading {
+        /* border: 2px solid red; */
+        letter-spacing: 1px;
+        font-weight: 700;
+        margin-left: 6px;
+    }
+
+    .nav-items a {
+        margin: 1px 15px;
+    }
+
+    #navBtns {
+        /* border: 2px solid red; */
+        margin-right: 0px;
+        width: 15vw;
+    }
+
+    .topBtn {
+        padding: 6px 7px;
+        font-family: 'Hubballi', cursive;
+        margin: 3px 2px;
+        border: none;
+        outline: none;
+        border-radius: 11px;
+        font-size: 0.80rem;
+        font-weight: 700;
+    }
+
+    /* home section */
+
+    #homeContainer::before {
+        top: 31px;
+        left: 0%;
+        height: 75.4%;
+        width: 100%;
+    }
+
+    #homeContainer {
+        /* border: 2px solid palegreen; */
+        display: block;
+        height: 65.8vh;
+        margin-bottom: 20px;
+    }
+
+    .leftContainer {
+        /* border: 2px solid red; */
+        width: 100vw;
+        height: 38vh;
+        align-items: center;
+        margin: 0px auto;
+        margin-top: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(255, 250, 250, 0.329);
+    }
+
+    .textDiv {
+        /* border: 2px solid pink; */
+        margin: 0px;
+        text-align: center;
+
+    }
+
+    .textDiv p {
+        font-size: 38px;
+        font-weight: bold;
+        word-spacing: 2px;
+        letter-spacing: 0px;
+    }
+
+    .textDiv .searchBar input {
+        width: 80%;
+    }
+
+    .textDiv .searchBar button {
+        width: 20%;
+    }
+
+    .rightContainer {
+        /* border: 2px solid rgb(44, 76, 221); */
+        width: 30%;
+        margin-left: 70%;
+        margin-top: 5.5%;
+    }
+
+    /* about container */
+
+
+    #aboutLeftContainer {
+        width: 85vw;
+        margin-left: 30px;
+    }
+
+    .detailsGroup {
+        height: 14vh;
+        width: 12.5vw;
+        margin: 10px 11px;
+    }
+
+
+    /* Appartment Section */
+
+    .appartmentHeading {
+        /* border: 2px solid firebrick; */
+        width: 60vw;
+        margin-left: 30px;
+        font-size: 2.2em;
+    }
+
+    #appartmentGallery {
+        /* border: 2px solid rgb(199, 36, 117); */
+        margin: 10px 10px;
+    }
+
+    #appartmentGallery .images {
+        margin: 12px 10px;
+
+    }
+
+    #appartmentGallery img {
+        height: 35vh;
+        width: 22.9vw;
+    }
+
+    .SD-hidden {
+        display: none;
+    }
+
+    #moreAppartment .search {
+        width: 65vw;
+    }
+
+    .moreAppartmentBtn button {
+        width: 28%;
+        font-size: 14.9px;
+    }
+
+    /* Agent Section */
+    #agent-heading {
+        margin-left: 30px;
+        font-size: 2.2em;
+    }
+
+    .agentLeftContainer {
+        width: 80vw;
+        margin-left: 0px;
+
+    }
+
+    #agentImage img {
+        height: 23vh;
+        width: 20vw;
+    }
+
+    /* Contact Section */
+    #contact {
+        width: 100vw;
+    }
+
+    #contact .contact_heading {
+        margin: auto;
+        text-align: center;
+        font-size: 2.2em;
+    }
+
+}
+
+@media(max-width: 1024px) and (min-width:900px) {
+
+    #navContainer {
+        position: static;
+    }
+
+    #navbar {
+        /* border: 2px solid black; */
+        background-color: white;
+        position: fixed;
+        width: 100vw;
+        align-items: center;
+        top: 0;
+        justify-content: center;
+        margin: 0px 0px;
+    }
+
+    #navHeading {
+        /* border: 2px solid red; */
+        letter-spacing: 1px;
+        font-weight: 700;
+        margin-left: 0px;
+    }
+
+    .nav-items a {
+        margin: 1px 8px;
+    }
+
+    #navBtns {
+        /* border: 2px solid red; */
+        margin-right: 0px;
+        width: 15vw;
+    }
+
+    .topBtn {
+        padding: 6px 7px;
+        font-family: 'Hubballi', cursive;
+        margin: 3px 2px;
+        border: none;
+        outline: none;
+        border-radius: 11px;
+        font-size: 0.80rem;
+        font-weight: 700;
+    }
+
+
+    /* home section */
+
+    #homeContainer::before {
+        top: 31px;
+        left: 0%;
+        height: 75.4%;
+        width: 100%;
+    }
+
+    #homeContainer {
+        /* border: 2px solid palegreen; */
+        display: block;
+        height: 65.8vh;
+        margin-bottom: 20px;
+    }
+
+    .leftContainer {
+        /* border: 2px solid red; */
+        width: 100vw;
+        height: 38vh;
+        align-items: center;
+        margin: 0px auto;
+        margin-top: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(255, 250, 250, 0.329);
+    }
+
+    .textDiv {
+        /* border: 2px solid pink; */
+        margin: 0px;
+        text-align: center;
+
+    }
+
+    .textDiv p {
+        font-size: 38px;
+        font-weight: bold;
+        word-spacing: 2px;
+        letter-spacing: 0px;
+    }
+
+    .textDiv .searchBar input {
+        width: 80%;
+    }
+
+    .textDiv .searchBar button {
+        width: 20%;
+    }
+
+    .rightContainer {
+        /* border: 2px solid rgb(44, 76, 221); */
+        width: 30%;
+        margin-left: 70%;
+        margin-top: 7.8%;
+    }
+
+
+    /* about container */
+
+
+    #aboutLeftContainer {
+        width: 85vw;
+        margin-left: 30px;
+    }
+
+    .detailsGroup {
+        height: 14vh;
+        width: 12.5vw;
+        margin: 10px 11px;
+    }
+
+
+    /* Appartment Section */
+
+    .appartmentHeading {
+        /* border: 2px solid firebrick; */
+        width: 60vw;
+        margin-left: 30px;
+        font-size: 2.2em;
+    }
+
+    #appartmentGallery {
+        /* border: 2px solid rgb(199, 36, 117); */
+        margin: 10px 10px;
+    }
+
+    #appartmentGallery .images {
+        margin: 12px 10px;
+
+    }
+
+    #appartmentGallery img {
+        height: 35vh;
+        width: 24.9vw;
+    }
+
+    .SD-hidden {
+        display: none;
+    }
+
+    #moreAppartment .search {
+        width: 65vw;
+    }
+
+    .moreAppartmentBtn button {
+        width: 28%;
+        font-size: 14.9px;
+    }
+
+    /* Agent Section */
+    #agent-heading {
+        margin-left: 30px;
+        font-size: 2.2em;
+    }
+
+    .agentLeftContainer {
+        width: 80vw;
+        margin-left: 0px;
+
+    }
+
+    #agentImage img {
+        height: 23vh;
+        width: 20vw;
+    }
+
+    /* Contact Section */
+    #contact {
+        width: 100vw;
+    }
+
+    #contact .contact_heading {
+        margin: auto;
+        text-align: center;
+        font-size: 2.2em;
+    }
+
+}
+
+@media(max-width: 899px) and (min-width:770px) {
+
+    #navContainer {
+        position: static;
+
+        /* border: 2px solid rebeccapurple; */
+    }
+
+    #navbar {
+        /* border: 2px solid black; */
+        background-color: white;
+        position: fixed;
+        width: 100vw;
+        align-items: center;
+        top: 0;
+        justify-content: center;
+        margin: 0px 0px;
+    }
+
+    #navHeading {
+        /* border: 2px solid red; */
+        letter-spacing: 0px;
+        font-weight: 500;
+        margin-left: 0px;
+    }
+
+    #navList {
+        padding: 2px 30px;
+
+    }
+
+    .nav-items a {
+        margin: 1px 3px;
+        padding: 3px 12px;
+    }
+
+
+
+    #navBtns {
+        margin-right: 0px;
+        width: 19vw;
+    }
+
+    .topBtn {
+        padding: 6px 7px;
+        margin: 3px 0px;
+        border-radius: 10px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+
+    /* home section */
+
+    #homeContainer::before {
+        top: 31px;
+        left: 0%;
+        height: 75.4%;
+        width: 100%;
+    }
+
+    #homeContainer {
+        /* border: 2px solid palegreen; */
+        display: block;
+        height: 64vh;
+        margin-bottom: 25px;
+    }
+
+    .leftContainer {
+        /* border: 2px solid red; */
+        width: 100vw;
+        height: 38vh;
+        align-items: center;
+        margin: 0px auto;
+        margin-top: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(255, 250, 250, 0.329);
+    }
+
+    .textDiv {
+        /* border: 2px solid pink; */
+        margin: 0px;
+        text-align: center;
+
+    }
+
+    .textDiv p {
+        font-size: 38px;
+        font-weight: bold;
+        word-spacing: 2px;
+        letter-spacing: 0px;
+    }
+
+    .textDiv .searchBar input {
+        width: 80%;
+    }
+
+    .textDiv .searchBar button {
+        width: 20%;
+    }
+
+    .rightContainer {
+        /* border: 2px solid rgb(44, 76, 221); */
+        width: 40%;
+        margin-left: 60%;
+        margin-top: 7.3%;
+    }
+
+
+    /* about container */
+
+    #aboutLeftContainer {
+        width: 60vw;
+        margin-left: 15px;
+    }
+
+    #aboutRightContainer {
+        width: 40vw;
+        margin-right: 3%;
+    }
+
+    .detailsGroup {
+        height: 18vh;
+        width: 12vw;
+        margin: 10px 11px;
+    }
+
+
+    /* Appartment Section */
+
+    .appartmentHeading {
+        /* border: 2px solid firebrick; */
+        width: 60vw;
+        margin-left: 30px;
+        font-size: 2.2em;
+    }
+
+    #appartmentGallery {
+        /* border: 2px solid rgb(199, 36, 117); */
+        margin: 10px 10px;
+    }
+
+    #appartmentGallery .images {
+        margin: 12px 10px;
+
+    }
+
+    #appartmentGallery img {
+        height: 35vh;
+        width: 30vw;
+    }
+
+    .SD-hidden {
+        display: none;
+    }
+
+    #moreAppartment .search {
+        width: 60vw;
+    }
+
+    #moreAppartment .search input {
+        width: 50%;
+
+    }
+
+    #moreAppartment .search button {
+        width: 15%;
+    }
+
+    .moreAppartmentBtn button {
+        width: 35%;
+        font-size: 14.9px;
+    }
+
+
+    /* Agent Section */
+    #agent-heading {
+        margin-left: 30px;
+        font-size: 2.2em;
+    }
+
+    .agentLeftContainer {
+        width: 80vw;
+        margin-left: 0px;
+
+    }
+
+    #agentImage img {
+        height: 25vh;
+        width: 20vw;
+        padding: 10px;
+    }
+
+    /* Contact Section */
+    #contact {
+        width: 100vw;
+    }
+
+    #contact .contact_heading {
+        text-align: center;
+        font-size: 2.2em;
+        margin-left: 0%;
+    }
+
+    #contact hr {
+        margin: 10px auto;
+        width: 33vw;
+    }
+
+}
+
+
+@media(max-width: 769px) and (min-width:426px) {
+
+
+
+    #navContainer {
+        position: fixed;
+        top: 0;
+    }
+
+    #navListContainer,
+    #navBtns {
+        display: block;
+        padding: 0px 0px;
+        position: absolute;
+        width: 27vw;
+        left: 73%;
+        transition: .4s ease-in-out;
+    }
+
+    #navListContainer {
+        top: 100%;
+    }
+
+    #navbar {
+        /* border: 2px solid black; */
+        background-color: white;
+        width: 100vw;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px 0px;
+    }
+
+    #navHeading {
+        /* border: 2px solid red; */
+        letter-spacing: 1px;
+        font-weight: bold;
+        margin-left: 30px;
+    }
+
+    #navList {
+        padding: 0px 0px;
+        flex-direction: column;
+        transition: .4s ease-in;
+    }
+
+
+    .nav-items {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 6vh;
+        transition: .4s ease-in-out;
+
+    }
+
+    #navItem1 {
+        transform: translateX(210px);
+        transition-delay: .6s;
+    }
+
+    #navItem2 {
+        transform: translateX(210px);
+        transition-delay: .5s;
+    }
+
+    #navItem3 {
+        transform: translateX(210px);
+        transition-delay: .4s;
+    }
+
+    #navItem4 {
+        transform: translateX(210px);
+        transition-delay: .3s;
+    }
+
+    #navItem5 {
+        transform: translateX(210px);
+        transition-delay: .2s;
+    }
+
+    #navList.active #navItem1 {
+        transform: translateX(-0px);
+        transition-delay: .1s;
+        background-color: rgba(255, 255, 255, 0.973);
+    }
+
+    #navList.active #navItem2 {
+        transform: translateX(-0px);
+        transition-delay: .2s;
+        background-color: rgba(255, 255, 255, 0.973);
+    }
+
+    #navList.active #navItem3 {
+        transform: translateX(-0px);
+        transition-delay: .3s;
+        background-color: rgba(255, 255, 255, 0.973);
+    }
+
+    #navList.active #navItem4 {
+        transform: translateX(-0px);
+        transition-delay: .4s;
+        background-color: rgba(255, 255, 255, 0.973);
+    }
+
+    #navList.active #navItem5 {
+        transform: translateX(-0px);
+        transition-delay: .5s;
+        background-color: rgba(255, 255, 255, 0.973);
+    }
+
+    .nav-items a {
+        position: static;
+    }
+
+    #navBtns {
+        margin-right: 0px;
+        top: 34vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(255, 255, 255, 0.973);
+        transition: .4s ease-in-out;
+        transform: translateX(210px);
+        transition-delay: .1s;
+        cursor: pointer;
+    }
+
+    #navBtns.active {
+        transform: translateX(-0px);
+        transition-delay: .6s;
+    }
+
+    .topBtn {
+        font-size: 14px;
+    }
+
+
+    .hamburger {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0px 15px;
+        width: 2.5%;
+    }
+
+    .line {
+        margin: 1.5px 15px;
+        background-color: black;
+        border-radius: 13px;
+        width: 100%;
+        height: 2px;
+        border-radius: 20px;
+        transition: .2s ease-in-out;
+    }
+
+    .hamburger.active .line-1 {
+        transform: translateY(-7px);
+        overflow: hidden;
+        opacity: 0;
+    }
+
+    .hamburger.active .line-2 {
+        transform: rotate(45deg);
+    }
+
+    .hamburger.active .line-3 {
+        transform: translateY(-5.1px) rotate(315deg);
+    }
+
+
+    .hamburger.active .navBtns {
+        transform: translateY(-5.1px) rotate(315deg);
+    }
+
+    /* home section */
+
+    #homeContainer::before {
+        top: 31px;
+        left: 0%;
+        height: 68.7%;
+        width: 100%;
+    }
+
+    #homeContainer {
+        /* border: 2px solid palegreen; */
+        display: block;
+        height: 60vh;
+        margin-bottom: 25px;
+    }
+
+    .leftContainer {
+        /* border: 2px solid red; */
+        width: 100vw;
+        height: 35vh;
+        align-items: center;
+        margin: 0px auto;
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(255, 250, 250, 0.425);
+    }
+
+    .textDiv {
+        /* border: 2px solid pink; */
+        margin: 0px;
+        text-align: center;
+    }
+
+    .textDiv p {
+        font-size: 38px;
+        font-weight: bold;
+        word-spacing: 2px;
+        letter-spacing: 0px;
+    }
+
+    .textDiv .searchBar input {
+        width: 80%;
+    }
+
+    .textDiv .searchBar button {
+        width: 20%;
+    }
+
+    .rightContainer {
+        /* border: 2px solid rgb(44, 76, 221); */
+        width: 45%;
+        margin-left: 55%;
+        margin-top: 11%;
+        height: 15.6vh;
+    }
+
+    /* about container */
+
+    #aboutLeftContainer {
+        width: 60vw;
+        margin-left: 15px;
+    }
+
+    #aboutRightContainer {
+        width: 40vw;
+        margin-right: 3%;
+    }
+
+    .detailsGroup {
+        height: 18vh;
+        width: 15vw;
+        margin: 10px 11px;
+    }
+
+    /* Appartment Section */
+
+    .appartmentHeading {
+        /* border: 2px solid firebrick; */
+        width: 60vw;
+        margin-left: 30px;
+        font-size: 2.2em;
+    }
+
+    #appartmentGallery {
+        /* border: 2px solid rgb(199, 36, 117); */
+        margin: 10px 10px;
+        /* font-size: 2px; */
+    }
+
+    #appartmentGallery .images {
+        margin: 12px 18px;
+
+    }
+
+    #appartmentGallery img {
+        height: 40vh;
+        width: 38vw;
+    }
+
+    .SD-hidden {
+        display: none;
+    }
+
+    #moreAppartment .search {
+        width: 60vw;
+    }
+
+    #moreAppartment .search input {
+        width: 50%;
+
+    }
+
+    #moreAppartment .search button {
+        width: 15%;
+    }
+
+    .moreAppartmentBtn button {
+        width: 35%;
+        font-size: 14.9px;
+    }
+
+
+    /* Agent Section */
+    #agent-heading {
+        margin-left: 30px;
+        font-size: 2.2em;
+    }
+
+    .agentLeftContainer {
+        width: 80vw;
+        margin-left: 0px;
+
+    }
+
+    #agentImage img {
+        height: 25vh;
+        width: 20vw;
+        padding: 10px;
+    }
+
+    /* Contact Section */
+    #contact {
+        width: 100vw;
+    }
+
+    #contact .contact_heading {
+        text-align: center;
+        font-size: 2.2em;
+        margin-left: 0%;
+    }
+
+    #contact hr {
+        margin: 10px auto;
+        width: 33vw;
+    }
+
+
+}
+
+@media(max-width: 425px) and (min-width:150px) {
+
+
+
+    #navContainer {
+        position: fixed;
+        top: 0;
+    }
+
+    #navListContainer,
+    #navBtns {
+        display: block;
+        padding: 0px 0px;
+        position: absolute;
+        width: 27vw;
+        left: 73%;
+        transition: .4s ease-in-out;
+    }
+
+    #navListContainer {
+        top: 100%;
+    }
+
+    #navbar {
+        /* border: 2px solid black; */
+        background-color: white;
+        width: 100vw;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px 0px;
+    }
+
+    #navHeading {
+        /* border: 2px solid red; */
+        letter-spacing: 1px;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+
+    #navList {
+        padding: 0px 0px;
+        flex-direction: column;
+        transition: .4s ease-in;
+    }
+
+
+    .nav-items {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 6vh;
+        transition: .4s ease-in-out;
+
+    }
+
+    #navItem1 {
+        transform: translateX(210px);
+        transition-delay: .6s;
+    }
+
+    #navItem2 {
+        transform: translateX(210px);
+        transition-delay: .5s;
+    }
+
+    #navItem3 {
+        transform: translateX(210px);
+        transition-delay: .4s;
+    }
+
+    #navItem4 {
+        transform: translateX(210px);
+        transition-delay: .3s;
+    }
+
+    #navItem5 {
+        transform: translateX(210px);
+        transition-delay: .2s;
+    }
+
+    #navList.active #navItem1 {
+        transform: translateX(-0px);
+        transition-delay: .1s;
+        background-color: rgba(255, 255, 255, 0.973);
+    }
+
+    #navList.active #navItem2 {
+        transform: translateX(-0px);
+        transition-delay: .2s;
+        background-color: rgba(255, 255, 255, 0.973);
+    }
+
+    #navList.active #navItem3 {
+        transform: translateX(-0px);
+        transition-delay: .3s;
+        background-color: rgba(255, 255, 255, 0.973);
+    }
+
+    #navList.active #navItem4 {
+        transform: translateX(-0px);
+        transition-delay: .4s;
+        background-color: rgba(255, 255, 255, 0.973);
+    }
+
+    #navList.active #navItem5 {
+        transform: translateX(-0px);
+        transition-delay: .5s;
+        background-color: rgba(255, 255, 255, 0.973);
+    }
+
+    .nav-items a {
+        position: static;
+    }
+
+    #navBtns {
+        margin-right: 0px;
+        top: 34vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(255, 255, 255, 0.973);
+        transition: .4s ease-in-out;
+        transform: translateX(210px);
+        transition-delay: .1s;
+        cursor: pointer;
+    }
+
+    #navBtns.active {
+        transform: translateX(-0px);
+        transition-delay: .6s;
+    }
+
+    .topBtn {
+        font-size: 14px;
+    }
+
+
+    .hamburger {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0px 15px;
+        width: 3.2%;
+    }
+
+    .line {
+        margin: 1.5px 15px;
+        background-color: black;
+        border-radius: 13px;
+        width: 100%;
+        height: 2px;
+        border-radius: 20px;
+        transition: .2s ease-in-out;
+    }
+
+    .hamburger.active .line-1 {
+        transform: translateY(-7px);
+        overflow: hidden;
+        opacity: 0;
+    }
+
+    .hamburger.active .line-2 {
+        transform: rotate(45deg);
+    }
+
+    .hamburger.active .line-3 {
+        transform: translateY(-5.1px) rotate(315deg);
+    }
+
+
+    .hamburger.active .navBtns {
+        transform: translateY(-5.1px) rotate(315deg);
+    }
+
+    /* home section */
+
+    #homeContainer::before {
+        top: 31px;
+        left: 0%;
+        height: 68.7%;
+        width: 100%;
+    }
+
+    #homeContainer {
+        /* border: 2px solid palegreen; */
+        display: block;
+        height: 60vh;
+        margin-bottom: 25px;
+    }
+
+    .leftContainer {
+        /* border: 2px solid red; */
+        width: 100vw;
+        height: 35vh;
+        align-items: center;
+        margin: 0px auto;
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(255, 250, 250, 0.425);
+    }
+
+    .textDiv {
+        /* border: 2px solid pink; */
+        margin: 0px;
+        text-align: center;
+    }
+
+    .textDiv p {
+        font-size: 38px;
+        font-weight: bold;
+        word-spacing: 2px;
+        letter-spacing: 0px;
+    }
+
+    .textDiv .searchBar input {
+        width: 80%;
+    }
+
+    .textDiv .searchBar button {
+        width: 17%;
+    }
+
+    .rightContainer {
+        /* border: 2px solid rgb(44, 76, 221); */
+        width: 100%;
+        /* margin-left: 55%; */
+        /* margin-top: 19.9%; */
+        margin-top: 22.6%;
+        height: 15.6vh;
+    }
+
+    /* about container */
+    #aboutContainer {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        flex-direction: column;
+    }
+
+    #aboutLeftContainer {
+        width: 100vw;
+        margin-left: 0px;
+    }
+
+    #aboutContainer h1 {
+        display: block;
+        margin: 10px 0;
+        font-size: 1.7em;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    #aboutRightContainer {
+        width: 100vw;
+        margin-right: 0%;
+    }
+    #aboutLeftContainer p {
+        margin-bottom: 5px;
+        word-spacing: 0px;
+        margin-left: 5px;
+        /* font-size: 0.39rem; */
+    }
+
+    .detailsGroup {
+        height: 14vh;
+        width: 30vw;
+        margin: 10px 11px;
+    }
+
+    /* Appartment Section */
+
+    .appartmentHeading {
+        /* border: 2px solid firebrick; */
+        width: 60vw;
+        /* margin-left: 30px; */
+        margin: auto;
+        text-align: center;
+        font-size: 1.7em;
+    }
+
+    #appartmentGallery {
+        /* border: 2px solid rgb(199, 36, 117); */
+        margin: 10px 10px;
+        /* font-size: 2px; */
+    }
+
+    #appartmentGallery .images {
+        margin: 12px 18px;
+
+    }
+
+    #appartmentGallery img {
+        height: 45vh;
+        width: 67vw;
+    }
+
+    .SD-hidden {
+        display: none;
+    }
+
+    #moreAppartment {
+        /* border: 2px solid lightcyan; */
+        display: block;
+        text-align: center;
+        height: 12vh;
+    }
+    #moreAppartment .search {
+        width: 80vw;
+        margin: auto;
+    }
+
+    #moreAppartment .search input {
+        width: 100%;
+        /* display: ; */
+
+    }
+
+    #moreAppartment .search button {
+        width:50%;
+    }
+
+    .moreAppartmentBtn{
+        width: 100%;
+    } 
+    .moreAppartmentBtn button {
+        width: 35%;
+        font-size: 14.9px;
+        border-radius: 0px;
+    }
+
+
+    /* Agent Section */
+    
+    
+#agentContainer {
+    /* border: 2px solid indianred; */
+    display: block;
+    /* flex-wrap: wrap; */
+    margin-bottom: 10px;
+}
+
+    #agent-heading {
+        margin: 10px auto;
+        text-align: center;
+        font-size: 1.7em;
+    }
+
+    .agentLeftContainer {
+        width: 100vw;
+        margin-left: 0px;
+
+    }
+
+    #agentImage img {
+        height: 25vh;
+        width: 20vw;
+        padding: 10px;
+        display: none;
+    }
+
+    /* Contact Section */
+    #contact {
+        width: 90vw;
+        /* border: 2px solid red; */
+    }
+
+    #contact .contact_heading {
+        text-align: center;
+        font-size: 2.2em;
+        margin-left: 0%;
+    }
+
+    #contact hr {
+        margin: 10px auto;
+        width: 56vw;
+    }
+
+    #contact ul li a {
+        /* border: 2px solid saddlebrown; */
+        /* height: 52px;
+        width: 52px; */
+        margin: 0 3px;
+    }
+
+
+
+}
